@@ -120,3 +120,5 @@ C:\Users\Rens\Documents\project\MVC\Wagenpark\Wagenpark\obj\Debug\Wagenpark.vbpr
 C:\Users\Rens\Documents\project\MVC\Wagenpark\Wagenpark\obj\Debug\Wagenpark.dll
 C:\Users\Rens\Documents\project\MVC\Wagenpark\Wagenpark\obj\Debug\Wagenpark.xml
 C:\Users\Rens\Documents\project\MVC\Wagenpark\Wagenpark\obj\Debug\Wagenpark.pdb
+C:\Users\Rens\Documents\project\MVC\Wagenpark\Wagenpark\obj\Debug\Wagenpark.vbproj.CoreCompileInputs.cache
+C:\Users\Rens\Documents\project\MVC\Wagenpark\Wagenpark\obj\Debug\Wagenpark.vbproj.CopyComplete
