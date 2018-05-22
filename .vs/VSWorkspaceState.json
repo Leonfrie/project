@@ -4,10 +4,12 @@
     "\\MVC",
     "\\MVC\\Wagenpark",
     "\\MVC\\Wagenpark\\Wagenpark",
-    "\\MVC\\Wagenpark\\Wagenpark\\img",
+    "\\MVC\\Wagenpark\\Wagenpark\\Controllers",
+    "\\MVC\\Wagenpark\\Wagenpark\\Models",
     "\\MVC\\Wagenpark\\Wagenpark\\Views",
-    "\\MVC\\Wagenpark\\Wagenpark\\Views\\Home"
+    "\\MVC\\Wagenpark\\Wagenpark\\Views\\Home",
+    "\\MVC\\Wagenpark\\Wagenpark\\Views\\Shared"
   ],
-  "SelectedNode": "\\MVC\\Wagenpark\\Wagenpark\\My Project",
+  "SelectedNode": "\\MVC\\Wagenpark\\Wagenpark\\Views\\Home\\Index.vbhtml",
   "PreviewInSolutionExplorer": false
 }

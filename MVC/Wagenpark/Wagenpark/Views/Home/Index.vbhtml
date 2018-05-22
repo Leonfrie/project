@@ -2,6 +2,7 @@
     ViewData("Title") = "Home Page"
 End Code
 
+
 <div class="jumbotron">
     <h1>Welkom bij ROCit</h1>
     <p class="lead">Wij werken aan mooie software om ROCit het makkelijk te maken om onderhoud van auto's bij te houden!</p>
