@@ -1,0 +1,81 @@
+CREATE TABLE auto (
+    kenteken_id        VARCHAR(6) NOT NULL,
+    merk               VARCHAR(50),
+    type               VARCHAR(50),
+    dealer_dealer_nr   INTEGER NOT NULL,
+    werkplaats_wp_nr   INTEGER NOT NULL
+)
+    ON "default" go
+
+ALTER TABLE Auto ADD constraint auto_pk PRIMARY KEY CLUSTERED (Kenteken_ID)
+     WITH (
+     ALLOW_PAGE_LOCKS = ON , 
+     ALLOW_ROW_LOCKS = ON )
+     ON "default" go
+
+CREATE TABLE dealer (
+    dealer_nr     INTEGER NOT NULL,
+    kenteken_id   INTEGER,
+    dealer_naam   VARCHAR(50)
+)
+    ON "default" go
+
+ALTER TABLE Dealer ADD constraint dealer_pk PRIMARY KEY CLUSTERED (Dealer_nr)
+     WITH (
+     ALLOW_PAGE_LOCKS = ON , 
+     ALLOW_ROW_LOCKS = ON )
+     ON "default" go
+
+CREATE TABLE onderhoud (
+    onderhoud_id        INTEGER NOT NULL,
+    wp_nr               INTEGER,
+    dealer_nr           INTEGER,
+    onderhouds_datum    DATE,
+    onderhouds_kosten   money,
+    werkplaats_wp_nr    INTEGER NOT NULL
+)
+    ON "default" go
+
+ALTER TABLE Onderhoud ADD constraint onderhoud_pk PRIMARY KEY CLUSTERED (Onderhoud_ID)
+     WITH (
+     ALLOW_PAGE_LOCKS = ON , 
+     ALLOW_ROW_LOCKS = ON )
+     ON "default" go
+
+CREATE TABLE werkplaats (
+    wp_nr              INTEGER NOT NULL,
+    dealer_nr          INTEGER,
+    wp_naam            VARCHAR(50),
+    dealer_dealer_nr   INTEGER NOT NULL
+)
+    ON "default" go
+
+ALTER TABLE Werkplaats ADD constraint werkplaats_pk PRIMARY KEY CLUSTERED (WP_nr)
+     WITH (
+     ALLOW_PAGE_LOCKS = ON , 
+     ALLOW_ROW_LOCKS = ON )
+     ON "default" go
+
+ALTER TABLE Auto
+    ADD CONSTRAINT auto_dealer_fk FOREIGN KEY ( dealer_dealer_nr )
+        REFERENCES dealer ( dealer_nr )
+ON DELETE NO ACTION 
+    ON UPDATE no action go
+
+ALTER TABLE Auto
+    ADD CONSTRAINT auto_werkplaats_fk FOREIGN KEY ( werkplaats_wp_nr )
+        REFERENCES werkplaats ( wp_nr )
+ON DELETE NO ACTION 
+    ON UPDATE no action go
+
+ALTER TABLE Onderhoud
+    ADD CONSTRAINT onderhoud_werkplaats_fk FOREIGN KEY ( werkplaats_wp_nr )
+        REFERENCES werkplaats ( wp_nr )
+ON DELETE NO ACTION 
+    ON UPDATE no action go
+
+ALTER TABLE Werkplaats
+    ADD CONSTRAINT werkplaats_dealer_fk FOREIGN KEY ( dealer_dealer_nr )
+        REFERENCES dealer ( dealer_nr )
+ON DELETE NO ACTION 
+    ON UPDATE no action go
