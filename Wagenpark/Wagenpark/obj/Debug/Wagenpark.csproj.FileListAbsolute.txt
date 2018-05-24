@@ -81,6 +81,7 @@ D:\school\backend\opdrachten\Wagenpark\Wagenpark\obj\Debug\Wagenpark.csprojResol
 D:\school\backend\opdrachten\Wagenpark\Wagenpark\obj\Debug\Wagenpark.dll
 D:\school\backend\opdrachten\Wagenpark\Wagenpark\obj\Debug\Wagenpark.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Piratheepa\Documents\Github\project\Wagenpark\Wagenpark\bin\ApplicationInsights.config
 C:\Users\Piratheepa\Documents\Github\project\Wagenpark\Wagenpark\bin\roslyn\csc.exe
 C:\Users\Piratheepa\Documents\Github\project\Wagenpark\Wagenpark\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -165,6 +166,8 @@ C:\Users\Piratheepa\Documents\Github\project\Wagenpark\Wagenpark\obj\Debug\Wagen
 C:\Users\Piratheepa\Documents\Github\project\Wagenpark\Wagenpark\obj\Debug\Wagenpark.dll
 C:\Users\Piratheepa\Documents\Github\project\Wagenpark\Wagenpark\obj\Debug\Wagenpark.pdb
 =======
+=======
+>>>>>>> ec086fc5d848a288b32d482a3937b8db8047054e
 C:\Users\Rens\Documents\GitHub\project\Wagenpark\Wagenpark\bin\ApplicationInsights.config
 C:\Users\Rens\Documents\GitHub\project\Wagenpark\Wagenpark\bin\roslyn\csc.exe
 C:\Users\Rens\Documents\GitHub\project\Wagenpark\Wagenpark\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -249,4 +252,7 @@ C:\Users\Rens\Documents\GitHub\project\Wagenpark\Wagenpark\obj\Debug\Wagenpark.c
 C:\Users\Rens\Documents\GitHub\project\Wagenpark\Wagenpark\obj\Debug\Wagenpark.csproj.CopyComplete
 C:\Users\Rens\Documents\GitHub\project\Wagenpark\Wagenpark\obj\Debug\Wagenpark.dll
 C:\Users\Rens\Documents\GitHub\project\Wagenpark\Wagenpark\obj\Debug\Wagenpark.pdb
+<<<<<<< HEAD
+>>>>>>> ec086fc5d848a288b32d482a3937b8db8047054e
+=======
 >>>>>>> ec086fc5d848a288b32d482a3937b8db8047054e
